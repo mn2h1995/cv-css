@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.526rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+p {
+  line-height: 2;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  position: relative;
+  padding: 50px 0 20px;
+}
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.footer-link {
+  color: #11999e;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.Design-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Teamwork-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.description-about-yourself {
+  color: #40514e;
+  width: 30%;
+  margin: auto;
+}
+
+.line-divided {
+  border: 6px dotted;
+  border-color: #eaf6f6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.made-by {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+.btn {
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border-radius: 3px;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color: #0688fa;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.contact-me {
+  margin-bottom: 50px;
+}
